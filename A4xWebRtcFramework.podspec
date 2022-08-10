@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   
   #一级目录
-  s.source_files = 'A4xWebRtcFramework/*.{swift,h,m,mm}'
+  #s.source_files = 'A4xWebRtcFramework/*.{swift,h,m,mm}'
   s.public_header_files = 'A4xWebRtcFramework/A4xWebRtcGenerateImage.h','A4xWebRtcFramework/A4xWebRtcFramework-Bridging-Header.h'
   
   #二级目录
